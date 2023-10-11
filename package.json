@@ -2,9 +2,8 @@
   "name": "link_shortner",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Bishen Patel",
   "private": true,
-  "license": "UNLICENSED",
   "scripts": {
     "build": "rimraf build && nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -18,8 +17,7 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "prettier": "prettier --config .prettierrc \"src/**/*.{js,jsx,ts,tsx,css,scss,sass,html}\" --write",
-    "lel": "nest g module controllers"
+    "prettier": "prettier --config .prettierrc \"src/**/*.{js,jsx,ts,tsx,css,scss,sass,html}\" --write"
   },
   "dependencies": {
     "@apollo/server": "^4.9.3",
